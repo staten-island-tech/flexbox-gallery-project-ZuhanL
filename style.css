@@ -11,28 +11,37 @@ body {
   justify-content: space-between;
 }
 .box {
-  border: 1px solid;
-  width: 28%;
+  border: 3px solid white;
+  width: 60%;
   height: 500px;
-  width: 600px;
-}
-.box-2 {
-  border: 3px solid yellow;
-}
-.box-3 {
-  border: 3px solid green;
 }
 .box-1 {
   background-image: url(pic/ps5.jpg);
   background-position: center;
-  border: 3px solid red;
   background-repeat: no-repeat;
-  height: 400px;
 }
 .box-11 {
   background-image: url(pic/ps4.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 410px;
-  border: 3px solid hotpink;
+}
+.box-2 {
+  background-image: url(pic/controller.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box-3 {
+  background-image: url(pic/head.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box-22 {
+  background-image: url(pic/controller2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box-33 {
+  background-image: url(pic/headset.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
