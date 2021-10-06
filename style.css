@@ -1,9 +1,8 @@
 html,
 body {
-  padding: 0%;
-  margin: 0%;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: hotpink;
 }
 .flex {
   font-size: 30px;
@@ -11,37 +10,37 @@ body {
   justify-content: space-between;
 }
 .box {
-  border: 3px solid white;
+  border: 3px solid hotpink;
   width: 60%;
   height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .box-1 {
   background-image: url(pic/ps5.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .box-11 {
-  background-image: url(pic/ps4.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(pic/Ps4.jpg);
 }
 .box-2 {
   background-image: url(pic/controller.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .box-3 {
   background-image: url(pic/head.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .box-22 {
   background-image: url(pic/controller2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .box-33 {
   background-image: url(pic/headset.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+}
+.box-4 {
+  background-image: url(pic/desk.jpg);
+}
+.box-5 {
+  background-image: url(pic/pc.jpg);
+}
+.box-6 {
+  background-image: url(pic/key.jpg);
 }
