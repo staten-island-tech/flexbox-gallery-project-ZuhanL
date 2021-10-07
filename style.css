@@ -1,7 +1,8 @@
-html,
-body {
+html {
   box-sizing: border-box;
   font-size: 62.5%;
+}
+body {
   background-color: hotpink;
 }
 .flex {
@@ -9,13 +10,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
 .box {
-  border: 3px solid hotpink;
-  width: 60%;
+  border: 3px solid pink;
   height: 500px;
+  width: 32%;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Roboto Condensed", sans-serif;
+  box-shadow: black 5px 5px 5px;
+  background-size: cover;
+  color: hotpink;
 }
 .box-1 {
   background-image: url(pic/ps5.jpg);
