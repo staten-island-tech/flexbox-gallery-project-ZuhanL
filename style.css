@@ -5,14 +5,14 @@ html {
 body {
   background-color: hotpink;
 }
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
 .flex {
   font-size: 30px;
   display: flex;
   justify-content: space-between;
-}
-h1 {
-  font-size: 35px;
-  text-align: center;
 }
 .box {
   border: 3px solid pink;
@@ -24,6 +24,42 @@ h1 {
   box-shadow: black 5px 5px 5px;
   background-size: cover;
   color: hotpink;
+}
+.box-1:hover,
+.box-2:hover,
+.box-3:hover {
+  transform: scale(1, 1);
+  outline: 1.5rem solid pink;
+}
+.box-11:hover,
+.box-22:hover,
+.box-33:hover {
+  transform: skew(-5deg);
+}
+.box-4 {
+  transition: 1s ease;
+}
+.box-4:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.box-5 {
+  transition: 1s ease;
+}
+.box-5:hover {
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 1s ease;
+}
+.box-6 {
+  transition: 1s ease;
+}
+.box-6:hover {
+  border-radius: 50%;
+  transition: 1s ease;
 }
 .box-1 {
   background-image: url(pic/ps5.jpg);
