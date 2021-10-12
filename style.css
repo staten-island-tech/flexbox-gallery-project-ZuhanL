@@ -10,6 +10,7 @@ h1 {
   text-align: center;
   animation-duration: 3s;
   animation-name: slidein;
+  color: white;
 }
 @keyframes slidein {
   from {
@@ -21,7 +22,6 @@ h1 {
     width: 100%;
   }
 }
-
 .flex {
   font-size: 30px;
   display: flex;
