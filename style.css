@@ -8,7 +8,20 @@ body {
 h1 {
   font-size: 35px;
   text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .flex {
   font-size: 30px;
   display: flex;
@@ -21,7 +34,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Roboto Condensed", sans-serif;
-  box-shadow: black 5px 5px 5px;
+  box-shadow: black 8px 8px 8px;
   background-size: cover;
   color: hotpink;
 }
