@@ -101,17 +101,18 @@ h1 {
 @media only screen and (min-device-width: 1030px) and (max-device-width: 1366px);}
 
 @media only screen 
- and (min-device-width : 768px) 
- and (max-device-width : 1024px) 
- and (orientation : landscape) {.h1 {
-  color: cyan;
- } 
-}
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {h1 {
+  color: aqua;
+} }
+
 @media only screen 
- and (min-device-width: 26.75rem) 
- and (min-device-height: 57.87rem) 
- and (orientation : portrait) {.h1 {
+and (min-device-width: 26.75rem) 
+and (min-device-height: 57.87rem)
+and (orientation : portrait) {h1 {
   color: gold;
- } 
-}
+} }
+
+
 
