@@ -6,7 +6,7 @@ body {
   background-color: hotpink;
 }
 h1 {
-  font-size: 35px;
+  font-size: 4rem;
   text-align: center;
   animation-duration: 3s;
   animation-name: slidein;
@@ -23,18 +23,18 @@ h1 {
   }
 }
 .flex {
-  font-size: 30px;
+  font-size: 3rem;
   display: flex;
   justify-content: space-between;
 }
 .box {
   border: 3px solid pink;
-  height: 500px;
+  height: 35rem;
   width: 32%;
   background-repeat: no-repeat;
   background-position: center;
   font-family: "Roboto Condensed", sans-serif;
-  box-shadow: black 8px 8px 8px;
+  box-shadow: black 0.5rem 0.5rem 0.5rem;
   background-size: cover;
   color: hotpink;
 }
@@ -42,19 +42,18 @@ h1 {
 .box-2:hover,
 .box-3:hover {
   transform: scale(1, 1);
-  outline: 1.5rem solid pink;
+  outline: 1rem solid pink;
 }
 .box-11:hover,
 .box-22:hover,
 .box-33:hover {
   transform: skew(-5deg);
+  outline: solid 1rem pink;
 }
 .box-4 {
   transition: 1s ease;
 }
 .box-4:hover {
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
   transform: scale(0.8);
   transition: 1s ease;
 }
@@ -62,9 +61,7 @@ h1 {
   transition: 1s ease;
 }
 .box-5:hover {
-  -webkit-transform: rotateZ(-10deg);
-  -ms-transform: rotateZ(-10deg);
-  transform: rotateZ(-10deg);
+  transform: rotate(-10deg);
   transition: 1s ease;
 }
 .box-6 {
@@ -101,3 +98,9 @@ h1 {
 .box-6 {
   background-image: url(pic/key.jpg);
 }
+@media only screen and (min-device-width: 1030px) and (max-device-width: 1366px);}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px);}
+@media only screen and (min-device-width: 26.75rem) and (min-device-height: 57.87rem);}
+
+
+
