@@ -98,21 +98,13 @@ h1 {
 .box-6 {
   background-image: url(pic/key.jpg);
 }
-@media only screen and (min-device-width: 1030px) and (max-device-width: 1366px);}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {h1 {
-  color: aqua;
-} }
-
-@media only screen 
-and (min-device-width: 26.75rem) 
-and (min-device-height: 57.87rem)
-and (orientation : portrait) {h1 {
-  color: gold;
-} }
-
-
-
+@media (max-width: 68.75rem) {
+  h1 {
+    color: gold;
+  }
+}
+@media (max-width: 31.25rem) {
+  h1 {
+    color: aqua;
+  }
+}
