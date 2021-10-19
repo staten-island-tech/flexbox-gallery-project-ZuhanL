@@ -98,6 +98,11 @@ h1 {
 .box-6 {
   background-image: url(pic/key.jpg);
 }
+@media (max-width: 110rem) {
+  h1 {
+    color: greenyellow;
+  }
+}
 @media (max-width: 68.75rem) {
   h1 {
     color: gold;
