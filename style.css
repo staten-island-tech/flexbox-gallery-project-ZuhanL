@@ -38,17 +38,18 @@ h1 {
   background-size: cover;
   color: hotpink;
 }
+.box:hover {
+  outline: 0.5rem solid pink;
+}
 .box-1:hover,
 .box-2:hover,
 .box-3:hover {
   transform: scale(1, 1);
-  outline: 1rem solid pink;
 }
 .box-11:hover,
 .box-22:hover,
 .box-33:hover {
   transform: skew(-5deg);
-  outline: solid 1rem pink;
 }
 .box-4 {
   transition: 1s ease;
