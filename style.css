@@ -44,7 +44,7 @@ h1 {
 .box-1:hover,
 .box-2:hover,
 .box-3:hover {
-  transform: scale(1, 1);
+  transform: scale(1.2, 1.2);
 }
 .box-11:hover,
 .box-22:hover,
@@ -101,7 +101,7 @@ h1 {
 }
 @media (max-width: 110rem) {
   h1 {
-    color: greenyellow;
+    color: black;
   }
 }
 @media (max-width: 68.75rem) {
