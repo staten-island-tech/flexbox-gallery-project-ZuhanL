@@ -45,11 +45,13 @@ h1 {
 .box-2:hover,
 .box-3:hover {
   transform: scale(1.2, 1.2);
+  transition: 0.5s ease;
 }
 .box-11:hover,
 .box-22:hover,
 .box-33:hover {
   transform: skew(-5deg);
+  transition: 0.5s ease;
 }
 .box-4 {
   transition: 1s ease;
