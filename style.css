@@ -9,10 +9,10 @@ h1 {
   font-size: 4rem;
   text-align: center;
   animation-duration: 3s;
-  animation-name: slidein;
+  animation-name: animation;
   color: white;
 }
-@keyframes slidein {
+@keyframes animation {
   from {
     margin-left: 100%;
     width: 300%;
@@ -72,6 +72,21 @@ h1 {
   border-radius: 50%;
   transition: 1s ease;
 }
+@media (max-width: 110rem) {
+  h1 {
+    color: black;
+  }
+}
+@media (max-width: 68.75rem) {
+  h1 {
+    color: gold;
+  }
+}
+@media (max-width: 31.25rem) {
+  h1 {
+    color: aqua;
+  }
+}
 .box-1 {
   background-image: url(pic/ps5.jpg);
 }
@@ -98,19 +113,4 @@ h1 {
 }
 .box-6 {
   background-image: url(pic/key.jpg);
-}
-@media (max-width: 110rem) {
-  h1 {
-    color: black;
-  }
-}
-@media (max-width: 68.75rem) {
-  h1 {
-    color: gold;
-  }
-}
-@media (max-width: 31.25rem) {
-  h1 {
-    color: aqua;
-  }
 }
