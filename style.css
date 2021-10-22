@@ -4,6 +4,7 @@ html {
 }
 body {
   background-color: hotpink;
+  margin-top: 20px;
 }
 h1 {
   font-size: 4rem;
@@ -97,6 +98,9 @@ h1 {
 @media (max-width: 31.25rem) {
   h1 {
     color: aqua;
+  }
+  .flex {
+    flex-direction: column;
   }
 }
 .box-1 {
